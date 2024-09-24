@@ -1,0 +1,73 @@
+/* @media screen and (min-width: 768px) { */
+/* .App #overlay {
+    font-size: 18px;
+  } */
+/* .App { */
+  /* background-image: url('../assets/background-img-1.png');
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* font-size: 16px;
+  scroll-behavior: smooth;
+}
+} */
+/* Reset CSS */
+
+/* ::before, ::after {
+  box-sizing: border-box;
+} */
+
+/*Head section */
+
+/* .App h1 {
+  font-size: 2.5rem;
+  color: #864747;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 1rem;
+} */
+
+/*Main section */
+/* .Routes {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  padding-right: 10px;
+}
+
+/* .btn {
+  padding-right: 50px;
+  text-align: center;
+  width: 150px;
+} */
+
+/* #overlay {
+  width: 15%;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  height: 20vh;
+} */
+
+/* .Routes a {
+  width: 65%;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background: #228B22;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 10px;
+  margin-left: 80px;
+  text-decoration: none;
+  padding-right: 50px;
+}
+
+.Routes a:hover {
+  background: #2108b1;
+  transform: translateY(-9px);
+} */
