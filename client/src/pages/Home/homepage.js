@@ -13,23 +13,23 @@ function HomePage() {
                     <ul className="nav">
                         <li className="nav-item">
                             <a href="/" className="nav-link">
-                            <i className="fas fa-home"></i>Home</a>
+                                <i className="fas fa-home"></i>Home</a>
                         </li>
                         <li className="nav-item">
                             <a href="./login" className="nav-link">
-                            <i className="fas fa-sign-in-alt"></i>Log In</a>
+                                <i className="fas fa-sign-in-alt"></i>Log In</a>
                         </li>
                         <li className="nav-item">
                             <a href="./signup" className="nav-link">
-                            <i className="fas fa-user-plus"></i>Sign Up</a>
+                                <i className="fas fa-user-plus"></i>Sign Up</a>
                         </li>
                         <li className="nav-item">
                             <a href="/about" className="nav-link">
-                            <i className="fas fa-info-circle"></i>About Us</a>
+                                <i className="fas fa-info-circle"></i>About Us</a>
                         </li>
                         <li className="nav-item">
                             <a href="/contact" className="nav-link">
-                            <i className="fas fa-envelope"></i>Contact Us</a>
+                                <i className="fas fa-envelope"></i>Contact Us</a>
                         </li>
                     </ul>
                 </nav>
@@ -43,6 +43,23 @@ function HomePage() {
                         <li><i className="fas fa-money-bill-wave"></i>Expenses</li>
                     </div>
                 </h2>
+            </div>
+            <div className="display-container">
+                <div className="display-budget">
+                    <h2>Budget</h2>
+                    <p>Set your budget here</p>
+                </div>
+                <div className="display-income">
+                    <h2>Income</h2>
+                    <p>Enter your income here</p>
+                </div>
+                <div className="display-expenses">
+                    <h2>Expenses</h2>
+                    <p>Enter your expenses here</p>
+                </div>
+            </div>
+            <div>
+                <footer>&copy; 2021 Fin-Map</footer>
             </div>
         </>
     )

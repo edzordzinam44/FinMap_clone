@@ -6,6 +6,7 @@
 
 body, html {
     background: linear-gradient(to bottom, #33ccff 0%, #66ff33 98%);
+    scroll-behavior: smooth;
 }
 
 .navbar-menu {
@@ -101,4 +102,25 @@ body, html {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
+  }
+
+  /* Footer */
+  footer {
+    position: absolute;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .display-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 35%;
+    /* margin-left: 150px; */
   }
