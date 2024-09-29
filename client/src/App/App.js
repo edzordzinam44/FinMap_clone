@@ -7,6 +7,7 @@ import HomePage from '../pages/Home/homepage';
 // import AboutUs from '../pages/AboutUs/AboutUs';
 // import Home from '../pages/Home/Home';
 import NoPage from '../pages/Error/NoPage';
+import Menu from '../pages/Menu/menu';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/login' element={<LogIn />} />
           {/* <Route path='/dashboard' element={<Dashboard />} /> */}
           {/* <Route path='/aboutus' element={<AboutUs />} /> */}
+          <Route path='/menu' element={<Menu />} />
           <Route path='*' element={<NoPage />} />
         </Routes>
     </BrowserRouter>
